@@ -39,14 +39,21 @@ button:hover {
 }
 
 .btn-igual {
-    position: absolute;
+   
     height: 116px;
     top: 311px;
-    left: 747px;
+    left: 749px;
 }
 
 .btn-zero {
     width: 186px;
+    position: relative;
+    bottom: 60px;
+}
+
+.btn-up {
+    position: relative;
+    bottom: 30px;
 }
 
 input {
