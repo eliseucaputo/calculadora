@@ -1,0 +1,65 @@
+@font-face {
+    font-family: fonte-calculadora;
+    src: url(fontes/Calculator.ttf);
+}
+
+body {
+    background-color: rgba(127, 255, 212, 0.158);
+}
+
+div {
+    width: 250px;
+    height: 365px;
+    border: 3px solid rgb(61, 61, 61);
+    margin: 50px auto;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 4px 3px 1px 0 rgba(0, 0, 0, 0.616);
+    border-radius:8px;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    width: 59.5px;
+    height: 55.5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: 1px solid rgba(22, 53, 43, 0.158);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.999);
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: darkorange;
+    border-color: #ff8c00;
+    box-shadow: none;
+}
+
+.btn-igual {
+    position: absolute;
+    height: 116px;
+    top: 311px;
+    left: 747px;
+}
+
+.btn-zero {
+    width: 186px;
+}
+
+input {
+    color: black;
+    font-family: fonte-calculadora;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    width: 97%;
+    height: 50px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.999);
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+}
